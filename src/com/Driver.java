@@ -6,6 +6,7 @@ public class Driver {
 	String category;
 	double totalDistance;
 	Driver driver;
+	String str2="Hello";
 
 	public Driver(int driverId, String driverName, String category, double totalDistance) {
 		super();
