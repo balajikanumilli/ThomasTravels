@@ -26,7 +26,7 @@ public class Travel {
     			countOfDrivers++;
     	return countOfDrivers;
     }
-    public List<Driver> retriveByCategory(List<Driver> drivers,String category){
+    public List<Driver> retriveDriverByCategory(List<Driver> drivers,String category){
     	List<Driver> resultList=new ArrayList();
     	for(Driver driver:drivers)
     		if(driver.getCategory().equalsIgnoreCase(category))
