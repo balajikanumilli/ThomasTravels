@@ -28,10 +28,8 @@ public class TestDriver {
         System.out.println(driver);
         
         Travel rapido=new Travel();
-        List<Driver> resultList=rapido.retriveByCategory(driversList, "Bike");
+        List<Driver> resultList=rapido.retriveDriverByCategory(driversList, "Bike");
         System.out.println(resultList);
-        
-        
         
 	}
 
